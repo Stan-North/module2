@@ -26,8 +26,7 @@ public class Runner {
         BigDecimal summaryTemperature = BigDecimal.ZERO;
 
         for (Integer integer : resultStatistics) {
-            BigDecimal temp = BigDecimal.valueOf(integer);
-            summaryTemperature = summaryTemperature.add(temp);
+            summaryTemperature = summaryTemperature.add(BigDecimal.valueOf(integer));
         }
 
         int scale = 1;
