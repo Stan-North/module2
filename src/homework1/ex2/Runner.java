@@ -1,5 +1,7 @@
 package homework1.ex2;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,13 +23,18 @@ public class Runner {
         ArrayList<Integer> resultStatistics = new ArrayList<>(januaryStatistics);
         resultStatistics.addAll(februaryStatistics);
 
-        int summaryTemperature = 0;
+        BigDecimal summaryTemperature = BigDecimal.ZERO;
 
         for (Integer integer : resultStatistics) {
-            summaryTemperature += integer;
+            BigDecimal temp = BigDecimal.valueOf(integer);
+            summaryTemperature = summaryTemperature.add(temp);
         }
 
-        System.out.println(summaryTemperature / resultStatistics.size());
+        int scale = 1;
+        BigDecimal divisor = BigDecimal.valueOf(resultStatistics.size());
+        BigDecimal result = summaryTemperature.divide(divisor, scale, RoundingMode.HALF_UP);
+
+        System.out.println(result);
 
     }
 }
