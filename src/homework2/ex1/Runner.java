@@ -58,7 +58,7 @@ public class Runner {
      */
      private static String getNumberOfLuggage(String line) {
          if (line != null) {
-             String[] splittedLine =  line.split(SPLITTERATOR);
+             String[] splittedLine = line.split(SPLITTERATOR);
              return splittedLine[INDEX_OF_LUGGAGE_NUMBER];
          }
         return "";
