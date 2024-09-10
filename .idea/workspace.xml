@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №1">
+    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework2/ex2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/ex2/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Runner.executor": "Run",
-    "Application.homework1.ex2.Runner.executor": "Run",
-    "Application.homework1.ex3.Runner.executor": "Run",
-    "Application.homework2.ex1.Runner.executor": "Run",
-    "Application.homework2.ex2.Runner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework1.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework1.ex3.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework2.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework2.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.homework2.ex1.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework1.ex1.Runner" />
@@ -165,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725484988168</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ДЗ №2">
+      <option name="closed" value="true" />
+      <created>1725825272581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725825272581</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ДЗ №2">
+      <option name="closed" value="true" />
+      <created>1725825471150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725825471150</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -173,14 +190,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ДЗ №1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ №1" />
+    <MESSAGE value="ДЗ №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ №2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/homework2/ex1/Runner.java</url>
-          <line>66</line>
+          <line>69</line>
           <properties class="homework2.ex1.Runner" method="unloadFeed">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -189,7 +207,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/homework2/ex2/Runner.java</url>
-          <line>51</line>
+          <line>54</line>
           <properties class="homework2.ex2.Runner" method="addWeightToMap">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

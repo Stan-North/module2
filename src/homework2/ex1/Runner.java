@@ -21,7 +21,7 @@ public class Runner {
     }
 
     /**
-     * метод, который все запускает
+     * основной метод
      */
     public static void luggageUnload (String fileName) {
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {

@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class Runner {
     private static final int LIGHT_WEIGHT = 5;
@@ -17,15 +19,15 @@ public class Runner {
     private static final int INITIAL_VALUE = 0;
 
     public static void main(String[] args) {
-        HashMap<String, Integer> result = calculateStatistics(FILE_NAME);
+        LinkedHashMap<String, Integer> result = calculateStatistics(FILE_NAME);
         System.out.println(result);
     }
 
     /**
      * основной метод
      */
-    public static HashMap<String, Integer> calculateStatistics(String fileName) {
-        HashMap<String, Integer> map = new HashMap<>();
+    public static LinkedHashMap<String, Integer> calculateStatistics(String fileName) {
+        LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
         mapInitialize(map);
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             reader.readLine(); //пропускаем первую строку
@@ -41,7 +43,7 @@ public class Runner {
     /**
      * Инициализация мапы и заполнение стартовыми значениями
      */
-    public static void mapInitialize(HashMap<String, Integer> result) {
+    public static void mapInitialize(Map<String, Integer> result) {
         result.put(LIGHT, INITIAL_VALUE);
         result.put(MIDDLE, INITIAL_VALUE);
         result.put(HEAVY, INITIAL_VALUE);
