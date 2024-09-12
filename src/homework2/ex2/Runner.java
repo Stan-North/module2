@@ -58,7 +58,7 @@ public class Runner {
             int value = Integer.parseInt(splittedLine[INDEX_OF_LUGGAGE_WEIGHT]);
             if (value < LIGHT_WEIGHT) {
                 hashMap.computeIfPresent(LIGHT, (k, v) -> v + value);
-            } else if (value > LIGHT_WEIGHT && value < HEAVY_WEIGHT) {
+            } else if (value >= LIGHT_WEIGHT && value < HEAVY_WEIGHT) {
                 hashMap.computeIfPresent(MIDDLE, (k, v) -> v + value);
             } else {
                 hashMap.computeIfPresent(HEAVY, (k, v) -> v + value);
