@@ -5,6 +5,7 @@ import java.time.Month;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.TreeSet;
 
 public class Runner {
     private static final int COMPARE_EQUALS_VALUE = 0;
@@ -27,11 +28,11 @@ public class Runner {
             return compareByLikes;
         };
 
-        ArrayList<Review> reviews = getReviews();
+        TreeSet<Review> reviews = new TreeSet<>(reviewComparator);
+        reviews.addAll(getReviews());
+
         System.out.println(reviews);
-        System.out.println("-----------------");
-        reviews.sort(reviewComparator);
-        System.out.println(reviews);
+
     }
 
     /**

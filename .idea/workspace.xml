@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,25 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Runner.executor": "Run",
-    "Application.homework1.ex2.Runner.executor": "Run",
-    "Application.homework1.ex3.Runner.executor": "Run",
-    "Application.homework2.ex1.Runner.executor": "Run",
-    "Application.homework2.ex2.Runner.executor": "Run",
-    "Application.homework3.Runner.executor": "Run",
-    "Application.homework3.ex1.Runner.executor": "Run",
-    "Application.homework3.ex3.Runner.executor": "Run",
-    "Application.homework3.ex4.Runner.executor": "Run",
-    "Application.homework3.ex5.Runner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework1.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework1.ex3.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework2.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework2.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework3.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework3.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework3.ex3.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework3.ex4.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework3.ex5.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.homework3.ex3.Runner">
+}</component>
+  <component name="RunManager" selected="Application.homework3.ex5.Runner">
     <configuration name="homework3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework3.Runner" />
       <module name="module2" />
@@ -132,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework3.ex5.Runner" />
         <item itemvalue="Application.homework3.ex3.Runner" />
         <item itemvalue="Application.homework3.ex1.Runner" />
-        <item itemvalue="Application.homework3.ex5.Runner" />
         <item itemvalue="Application.homework3.Runner" />
         <item itemvalue="Application.homework3.ex4.Runner" />
       </list>
@@ -205,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726172450505</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ДЗ №3">
+      <option name="closed" value="true" />
+      <created>1726515344752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726515344752</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ДЗ №3">
+      <option name="closed" value="true" />
+      <created>1726515723636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726515723636</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -214,7 +227,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ДЗ №1" />
     <MESSAGE value="ДЗ №2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ №2" />
+    <MESSAGE value="ДЗ №3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ №3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
