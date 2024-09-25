@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №3" />
+    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,44 +45,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework1.ex2.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework1.ex3.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework2.ex1.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework2.ex2.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework3.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework3.ex1.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework3.ex3.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework3.ex4.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework3.ex5.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Runner.executor": "Run",
+    "Application.homework1.ex2.Runner.executor": "Run",
+    "Application.homework1.ex3.Runner.executor": "Run",
+    "Application.homework2.ex1.Runner.executor": "Run",
+    "Application.homework2.ex2.Runner.executor": "Run",
+    "Application.homework3.Runner.executor": "Run",
+    "Application.homework3.ex1.Runner.executor": "Run",
+    "Application.homework3.ex3.Runner.executor": "Run",
+    "Application.homework3.ex4.Runner.executor": "Run",
+    "Application.homework3.ex5.Runner.executor": "Run",
+    "Application.homework4.ex2.Runner.executor": "Run",
+    "Application.homework4.ex3.Runner.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.homework3.ex5.Runner">
-    <configuration name="homework3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.Runner" />
+}]]></component>
+  <component name="RunManager" selected="Application.homework4.ex3.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.ex1.Runner" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework3.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.ex1.Runner" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework3.ex1.*" />
+          <option name="PATTERN" value="homework4.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,19 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework3.ex4.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.ex4.Runner" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework3.ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="homework3.ex5.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework3.ex5.Runner" />
       <module name="module2" />
@@ -127,13 +106,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homework4.ex2.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.ex2.Runner" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework4.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework4.ex3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.ex3.Runner" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework4.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework4.ex3.Runner" />
+        <item itemvalue="Application.homework4.ex2.Runner" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.homework3.ex5.Runner" />
         <item itemvalue="Application.homework3.ex3.Runner" />
-        <item itemvalue="Application.homework3.ex1.Runner" />
-        <item itemvalue="Application.homework3.Runner" />
-        <item itemvalue="Application.homework3.ex4.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726515723636</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ДЗ №3">
+      <option name="closed" value="true" />
+      <created>1726763281307</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726763281308</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
