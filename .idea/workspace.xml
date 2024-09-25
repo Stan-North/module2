@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №4">
+      <change beforePath="$PROJECT_DIR$/src/homework4/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework4/ex3/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726763281308</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ДЗ №4">
+      <option name="closed" value="true" />
+      <created>1727299666819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727299666820</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -241,7 +249,8 @@
     <MESSAGE value="ДЗ №1" />
     <MESSAGE value="ДЗ №2" />
     <MESSAGE value="ДЗ №3" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ №3" />
+    <MESSAGE value="ДЗ №4" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ №4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

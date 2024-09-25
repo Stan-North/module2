@@ -6,6 +6,7 @@ import java.util.Optional;
 
 public class Runner {
     private static final int MIN_HEIGHT = 1000;
+    private static final int COUNT_OF_PRINT = 3;
     public static void main(String[] args) {
         Skyscraper tradeCenter = new Skyscraper("Всемирный торговый центр", 541);
         Skyscraper shanghaiTower = new Skyscraper("Шанхайская башня", 632);
@@ -20,7 +21,7 @@ public class Runner {
                 .distinct().toList();
 
         newList.stream()
-                .limit(3)
+                .limit(COUNT_OF_PRINT)
                 .forEach(System.out::println);
 
         // Печать самого высокого небоскреба
