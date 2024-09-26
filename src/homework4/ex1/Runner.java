@@ -15,8 +15,11 @@ public class Runner {
     private static final String FILTER_REGEX = ".*04[0-9].*";
 
     public static void main(String[] args) {
-        List<Car> firstCars = createCars(FIRST_REGEX);
-        List<Car> secondCars = createCars(SECOND_REGEX);
+        List<Car> firstCars = new ArrayList<>();
+        createCars(firstCars, FIRST_REGEX);
+
+        List<Car> secondCars = new ArrayList<>();
+        createCars(secondCars, SECOND_REGEX);
 
         Pattern pattern = Pattern.compile(FILTER_REGEX);
 
@@ -26,11 +29,9 @@ public class Runner {
                 .forEach(e -> System.out.println(e.getNumber()));
     }
 
-    private static List<Car> createCars(String regex) {
-        List<Car> cars = new ArrayList<>();
+    private static void createCars(List<Car> cars, String regex) {
         IntStream.rangeClosed(START_VALUE, END_VALUE)
                 .mapToObj(i -> new Car(String.format(regex, i)))
                 .forEach(cars::add);
-        return cars;
     }
 }
