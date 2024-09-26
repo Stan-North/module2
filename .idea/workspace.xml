@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e80a9aa5-9fcc-48a4-9363-5865a8c64ca1" name="Changes" comment="ДЗ №5">
+      <change beforePath="$PROJECT_DIR$/src/homework5/Runnner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework5/Runnner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727376353393</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ДЗ №5">
+      <option name="closed" value="true" />
+      <created>1727384261860</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727384261860</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ДЗ №5">
+      <option name="closed" value="true" />
+      <created>1727384372478</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727384372479</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -275,7 +291,8 @@
     <MESSAGE value="ДЗ №2" />
     <MESSAGE value="ДЗ №3" />
     <MESSAGE value="ДЗ №4" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ №4" />
+    <MESSAGE value="ДЗ №5" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ №5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -43,7 +43,6 @@ public class Runnner {
     private static void stealMoney(Thief thief, Bank bank) {
         try {
             Method method = thief.getClass().getDeclaredMethod(METHOD_NAME_FOR_STEAL_MONEY, Bank.class);
-            System.out.println(method.getName());
             method.setAccessible(true);
             method.invoke(thief, bank);
         } catch (IllegalAccessException | NoSuchMethodException | InvocationTargetException e) {
