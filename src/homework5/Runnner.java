@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 
 public class Runnner {
     private static final BigDecimal MONEY_QUANTITY = BigDecimal.valueOf(1500);
+    private static final String METHOD_NAME_FOR_STEAL_MONEY = "stealMoney";
 
     public static void main(String[] args) {
         Bank bank = createBank(MONEY_QUANTITY);
@@ -41,7 +42,7 @@ public class Runnner {
 
     private static void stealMoney(Thief thief, Bank bank) {
         try {
-            Method method = thief.getClass().getDeclaredMethod("stealMoney", Bank.class);
+            Method method = thief.getClass().getDeclaredMethod(METHOD_NAME_FOR_STEAL_MONEY, Bank.class);
             System.out.println(method.getName());
             method.setAccessible(true);
             method.invoke(thief, bank);
